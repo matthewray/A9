@@ -1,0 +1,60 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+#left-eye {
+	background-color: #ffffff;
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 31.5%;
+	padding: 10px;
+}
+
+#right-eye {
+	background-color: #ffffff;
+	width: 15%;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	height: 31.5%;
+	padding: 10px;
+}
+
+.eye-color {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.eye {
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+	z-index: 2;
+}
+
+.face-template {
+	width: 50%;
+	right: 25%;
+	top: 15%;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.face {
+	position: absolute;
+	max-width: 90%;
+	max-height: 90%;
+	z-index: 2;
+}
